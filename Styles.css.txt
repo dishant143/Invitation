@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #d147a3;
+}
+
+#rsvp-form input, #rsvp-form button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#rsvp-form input {
+    width: 200px;
+}
+
+#rsvp-form button {
+    background-color: #ff66b2;
+    color: white;
+    cursor: pointer;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ffcccc;
+    padding: 10px;
+    margin-top: 20px;
+}

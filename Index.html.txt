@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Baby Shower!</h1>
+        <p>Join us in celebrating this special moment</p>
+    </header>
+
+    <section id="event-details">
+        <h2>Event Details</h2>
+        <p><strong>Date:</strong> March 30, 2025</p>
+        <p><strong>Time:</strong> 3:00 PM - 7:00 PM</p>
+        <p><strong>Location:</strong> ABC Banquet Hall, Miami Beach</p>
+        <p id="countdown"></p>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form id="rsvp-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <button type="submit">Submit RSVP</button>
+        </form>
+        <p id="confirmation" style="display: none;">Thank you for RSVPing!</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="baby1.jpg" alt="Baby Theme 1">
+            <img src="baby2.jpg" alt="Baby Theme 2">
+            <img src="baby3.jpg" alt="Baby Theme 3">
+        </div>
+    </section>
+
+    <section id="registry">
+        <h2>Gift Registry</h2>
+        <p>Check out our <a href="https://www.amazon.com/baby-reg" target="_blank">Amazon Baby Registry</a></p>
+    </section>
+
+    <footer>
+        <p>We can't wait to celebrate with you!</p>
+    </footer>
+
+</body>
+</html>
